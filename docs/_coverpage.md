@@ -1,3 +1,7 @@
+
+
+![logo](_media/he0x_whale_v0.3.png ':size=15%')
+
 # He0x whale
  > wiki & blogs
 
@@ -5,3 +9,4 @@
 
 [GITHUB](https://github.com/he0xwhale)
 [FEEBUF](https://www.freebuf.com/author/he0xwhale)
+[Get Started <i class="iconfont icon-down"></i>](#main)
