@@ -16,12 +16,81 @@
     window.$docsify = {
       name: 'he0xwhale\'s wikiblog',
       repo: '',
+      // logo:'/_media/he0x_whale_v0.3.png',
       loadSidebar: true,
+      // loadNavbar: true,
       coverpage:true,
-      themeColor:'#25798A'
+      // themeColor:'#25798A',
+      maxLevel:6,
+      subMaxLevel: 0,
+      toc:{
+        scope: '.markdown-section',
+        headdings:'h1,h2,h3,h4',
+        title:'快速跳转'
+      },
+      //搜索
+      search: 'auto',
+      placeholder:{
+        '/zh-cn/':'搜索',
+        '/':'Type to search'
+      },
+      noData: {
+        '/zh-cn/': '找不到结果',
+        '/': 'No Results'
+        },
+        pagination: {
+      previousText: '上一章节',
+      nextText: '下一章节',
+      crossChapter: true,
+      crossChapterText: true,
+  },
+  //code
+  copyCode: {
+      // buttonText : 'buttonText:String',
+      // errorText : 'errorText:String',
+      // successText: 'successText:String'
+      buttonText: {
+          '/zh-cn/': '点击复制',
+          '/ru/': 'Скопировать в буфер обмена',
+          '/de-de/': 'Klicken Sie zum Kopieren',
+          '/es/': 'Haga clic para copiar',
+          '/': 'Copy to clipboard'
+      },
+      errorText: {
+          '/zh-cn/': '错误',
+          '/ru/': 'ошибка',
+          '/': 'Error'
+      },
+      successText: {
+          '/zh-cn/': '复制',
+          '/ru/': 'Скопировано',
+          '/de-de/': 'Kopiert',
+          '/es/': 'Copiado',
+          '/': 'Copied'
+      }
+  }
     }
   </script>
+
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script> -->
+<!--TOC-->
+<script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+<!--TOC END-->
+<!--search-->
+<script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+<!--search END-->
+
+<!--pagination-->
+<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<!--pagination END-->
+
+<!-- code -->
+<script src="https://unpkg.com/prismjs@1.15.0/components/prism-python.min.js"></script>
+<script src="https://unpkg.com/prismjs@1.15.0/components/prism-jsx.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+<!-- code END -->
 </body>
 </html>

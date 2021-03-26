@@ -7,6 +7,7 @@
 
 > **All things about CyberSecurity & Technolgy & Development**
 
+[**Blog**](updates.md)
 [GITHUB](https://github.com/he0xwhale)
-[FEEBUF](https://www.freebuf.com/author/he0xwhale)
+[FREEBUF](https://www.freebuf.com/author/he0xwhale)
 [Get Started <i class="iconfont icon-down"></i>](#main)
