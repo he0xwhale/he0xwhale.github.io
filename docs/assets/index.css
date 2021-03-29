@@ -1,0 +1,44 @@
+/* gitalk */
+.gt-container a {
+    color: #b4a078;
+  }
+  .gt-container a:hover {
+    color: #C3B393;
+    border-color: #C3B393;
+  }
+  .gt-container .gt-svg svg {
+    fill: #b4a078;
+  }
+  .gt-container .gt-spinner::before {
+    border-top-color: #b4a078;
+  }
+  .gt-container .gt-btn {
+    border-color: #b4a078;
+    background-color: #b4a078;
+  }
+  .gt-container .gt-btn:not(.gt-btn-preview):hover {
+    border-color: #C3B393;
+    background-color: #C3B393;
+  }
+  .gt-container .gt-btn-preview {
+    color: #b4a078;
+    background-color: white;
+  }
+  .gt-container .gt-btn-preview:hover {
+    border-color: #b4a078;
+  }
+  .gt-container .gt-link {
+    border-bottom: 1px dotted #b4a078;
+  }
+  .gt-container .gt-user .is--poping .gt-ico svg {
+    fill: #b4a078;
+  }
+  .gt-container .gt-popup .gt-action.is--active:before {
+    background: #b4a078;
+  }
+  .gt-container .gt-header-controls-tip {
+    color: #b4a078;
+  }
+  .gt-container .gt-comment-username {
+    color: #b4a078;
+  }
